@@ -1,3 +1,22 @@
+
+@font-face {
+  font-family: irsans;
+  src: url('../fonts/irsans.ttf');
+}
+@font-face {
+  font-family: vazir;
+  src: url('../fonts/Vazir.ttf'),
+    url('../fonts/Vazir.woff'),
+    url('../fonts/Vazir.woff2');
+}
+
+
+.vazir{
+  font-family: vazir;
+}
+.irsans{
+  font-family: irsans;
+}
 a,
 li {
   text-decoration: none;
@@ -52,6 +71,9 @@ h1 {
 header {
   margin-bottom: 70px;
 }
+.tow-cards{
+  margin-top: 150px;
+}
 .circle-card img {
   border-radius: 50%;
   margin-bottom: 15px;
@@ -104,6 +126,7 @@ h5 {
   color: white;
 }
 .articles-bg{
+  margin-top: 70px;
   background-color: rgba(236, 248, 187, 0.26);
   padding-bottom: 50px;
 }
@@ -114,9 +137,31 @@ h5 {
 .font-30{
   font-size: 30px;
 }
+.info-login{
+  margin-top: 120px;
+  padding-top: 35px;
+}
+.u-video{
+  width: 350px;
+}
+.login{
+  background-color: rgba(181, 220, 221, 0.24);
 
-
-
+  border-radius: 17px;
+}
+.login h4{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.login p{
+  margin-bottom: 40px;
+}
+.u-info{
+  background-color: rgba(250, 235, 215, 0.37);
+  padding: 14px;
+  font-size: 18px;
+}
 
 
 
