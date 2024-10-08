@@ -14,7 +14,7 @@
 
 <body>
     <header class="text-center shadow">
-        <div class="container-fluid shadow bg-nav py-1">
+        <div class="container-fluid shadow bg-nav py-3">
             <div class="row">
                 <div class="col-3 align-self-center">
                     <img class="logo shadow" src="./img/logo.jpg" alt="LOGO">
@@ -39,11 +39,11 @@
             </div>
         </div>
         <div class="header-2">
-            <div>
+            <div class="mt-5">
                 <h1 class="m-3">مهندسی پزشکی شاهرود</h1>
-                <p>مجموعه مقالات مهندسی پزشکی دانشگاه صنعتی شتهرود</p>
+                <p>مجموعه مقالات مهندسی پزشکی دانشگاه صنعتی شاهرود</p>
             </div>
-            <a class="mt-5 btn btn-success shadow" href="#">افزودن مقاله</a>
+            <a class="mt-5 btn btn-success shadow" href="#">افزودن مقاله جدید </a>
         </div>
     </header>
 
@@ -122,7 +122,7 @@
 
     <section id="articles" class="text-center">
         <div class="articles-bg">
-        <div class="container">
+            <div class="container">
                 <h2 class="articles-h2">لیست مقالات</h2>
                 <div class="row row-cols-4">
 
@@ -146,17 +146,242 @@
                             </div>
                         </a>
                     </div>
-
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="best-articles" class="text-center">
+
+    <section id="best-articles" class="text-center py-4">
         <div class="container">
-            <div class="row row-cols-4">
-                
+            <div class="d-flex articles-top">
+                <h2 class="articles-h2 text-start">مقالات پرطرفدار</h2>
+                <div class="text-end carousel-btn">
+                    <a type="button" data-bs-target="#carouselExample" data-bs-slide="prev"><i
+                            class="bi bi-arrow-right-square-fill font-30"></i></a>
+
+                    <a type="button" data-bs-target="#carouselExample" data-bs-slide="next"><i
+                            class="bi bi-arrow-left-square font-30"></i></a>
+
+                </div>
             </div>
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row row-cols-3 align-items-center  justify-content-center">
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-2.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-1.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-2.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row row-cols-3 align-items-center justify-content-center">
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-2.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-1.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-2.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row row-cols-3align-items-center justify-content-center">
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-2.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-1.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#">
+                                    <div class="card articles-card">
+                                        <img src="./img/img-2.jpg" class="card-img-top heart-img mb-1" alt="...">
+                                        <i class="bi bi-heart-fill white heart-img-icon"></i>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title black">عنوان مقاله</h5>
+                                            <p class="card-text my-2 h-body black">توضیحات کوتاه وپیشگفتار در رابطه با
+                                                مقاله
+                                            </p>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="mt-4">
+                                                    <p class="black">انتشار:</p>
+                                                    <p class="black">نویسنده:</p>
+                                                </div>
+                                                <a class="btn btn-warning" href="#">مشاهده</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
@@ -177,17 +402,11 @@
 
 
 
-
-
-
-
-
-
-
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    ss
+
     <br><br>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
